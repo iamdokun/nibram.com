@@ -1,0 +1,81 @@
+
+/* Footer  */
+.footer-wrap {
+    background-color: #e2e2e2;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.footer-logo {
+    width: 100px;
+}
+.footer-logo img {
+    width: 100%;
+}
+.footer-contact p {
+    /* border: 1px solid red; */
+    color: #212529;
+}
+.footer-contact p i {
+    margin-right: 8px;
+    color: #808080;
+}
+.social {
+    padding-left: 1rem;
+    padding-top: 10px;
+}
+.social a img {
+    width: 35px;
+    height: 35px;
+}
+.social a {
+    padding-right: 10px;
+}
+.newsletter label {
+    color: #212529;
+}
+.newsletter input {
+    width: 250px;
+    /* height: 40px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid#808080;
+    background-color: #e9e9e9;
+    outline: none;
+}
+.newsletter button {
+    padding: 10px 20px ;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #5f6caf;
+}
+.newsletter button:hover {
+    transform: scale(0.97);
+    transition: ease-in-out 0.3s;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+    /* Footer */
+    footer {
+        padding-left: 10px;
+    }
+    .footer-contact {
+        margin-top: 4rem;
+    }
+    .newsletter-wrap {
+        margin-top: 4rem;
+    }
+    .newsletter input {
+        width: 220px;
+    }
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color: #fff;
+}
+.banner img {
+    width: 100%;
+    /* height: 550px; */
+    margin-top: 85px;
+} 
+
+/* Welcome Message */
+.welcome-wrap {
+    /* border: 1px solid red; */
+    padding-top: 1.9rem;
+}
+.welcome {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.welcome-message-img {
+
+}
+.welcome-message-img img {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.message {
+    /* border: 1px solid red; */
+    /* padding-top: 3.5rem; */
+}
+.message h4 {
+    /* border: 1px solid red; */
+   margin-bottom: 1.5rem;
+}
+.message button {
+    margin-top: 1.5rem;
+    
+}
+
+
+/* Our Services */
+.service-wrap {
+    background-color: #e9e9e9;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.service-head {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.services {
+    border: 1px solid #cdd0cb;
+    /* border: 1px solid #5f6caf; */
+    border-radius: 7px;
+    padding-bottom: 1rem;
+    
+}
+.services:hover {
+    box-shadow: 4px 4px 2px rgba(95,108,175, 0.3);
+}
+.services-img {
+    margin-bottom: 1rem;
+}
+.services-img img {
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.services-content-head {
+    text-align: center;
+
+}
+.services-content {
+    font-size: 14px;
+    padding-left: 7px;
+}
+.services a {
+    margin-left: 8px;
+    
+}
+.services a button {
+    margin-top: 1rem;
+    padding: 5px 10px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid;
+    font-size: 14px;
+}
+.services a button:hover {
+    transform: scale(0.97);
+    transition: ease-in-out 0.3s;
+}
+
+
+
+/* Why Choose Us */
+.choose-wrap {
+    background-color: #5f6caf;
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.choose-wrap p {
+    line-height: 30px;
+    font-size: 17px;
+}
+.choose-wrap button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #5f6caf;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    outline: none;
+    
+}
+.choose-wrap button:hover {
+    transform: scale(0.97);
+    transition: ease-in-out 0.3s;
+}
+
+
+/* Footer  */
+.footer-wrap {
+    background-color: #e9e9e9;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.footer-logo {
+    width: 100px;
+}
+.footer-logo img {
+    width: 100%;
+}
+.footer-contact p {
+    /* border: 1px solid red; */
+    color: #212529;
+}
+.footer-contact p i {
+    margin-right: 8px;
+    color: #808080;
+}
+.social {
+    padding-left: 1rem;
+    padding-top: 10px;
+}
+.social a img {
+    width: 35px;
+    height: 35px;
+}
+.social a {
+    padding-right: 10px;
+}
+.newsletter label {
+    color: #212529;
+}
+.newsletter input {
+    width: 250px;
+    /* height: 40px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid#808080;
+    background-color: #e9e9e9;
+    outline: none;
+}
+.newsletter button {
+    padding: 10px 20px ;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #5f6caf;
+}
+.newsletter button:hover {
+    transform: scale(0.97);
+    transition: ease-in-out 0.3s;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+    /* Footer */
+    footer {
+        padding-left: 10px;
+    }
+    .footer-contact {
+        margin-top: 4rem;
+    }
+    .newsletter-wrap {
+        margin-top: 4rem;
+    }
+    .newsletter input {
+        width: 220px;
+    }
+}

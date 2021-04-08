@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* NavBar */
+
+.banner img {
+    width: 100%;
+    /* height: 550px; */
+}
+
+/* About Us Message */
+
+.about-us-wrap {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    width: 85%;
+    margin: auto;
+}
+.about-us-wrap ul {
+    list-style: none;
+}
+.about-us-wrap ul li {
+    font-size: 18px;
+    padding: 1rem;
+    line-height: 1.8rem;
+    color: #121212;
+}
+.welcome {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.registration {
+    color: #5f6caf;
+    font-weight: bold;
+}
+
+
+
+/* Why Choose Us */
+.core-value-wrap {
+    background-color: #5f6caf;
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.core-head {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.core-img {
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 65%;
+    padding-top: 2rem;
+}
+.core-img img {
+    width: 100%;
+}
+.core p {
+    font-size: 18px;
+    /* border: 1px solid red; */
+}
+
+/* Vision & Mission */
+.vision-wrap {
+    background-color: #e9e9e9;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.vision {
+    /* border: 1px solid red; */
+}
+.vision-img {
+    width: 80%;
+    margin: auto;
+}
+.vision-img img {
+    width: 100%;
+}
+.vision h3 {
+    color: #2b2a2a;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.vision p {
+    color: #5e5e5e;
+}
+.mission h3 {
+    color: #2b2a2a;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.mission p {
+    color: #5e5e5e;
+}
+#nn {
+    /* border: 1px solid red; */
+    padding-left: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .about-us-wrap {
+        width: 100%;
+    }
+
+    #nn {
+        order: 2;
+        text-align: center;
+        padding-left: 0%;
+    }
+    #mm {
+        order: 1;
+    }
+    #oo {
+        order: 3;
+    }
+    #pp {
+        order: 4;
+        text-align: center;
+    }
+    .core-img {
+        width: 45%;
+    }
+
+   
+}
