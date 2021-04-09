@@ -6,15 +6,66 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+@font-face {
+    font-family: SF UI Display;
+    src: url(/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
+    src: url(/sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
+  }
+  html {
+    scroll-behavior: smooth;
+}
 main {
     background-color: #fff;
+}
+/* Banner Section */
+.banner {
+    position: relative;
 }
 .banner img {
     width: 100%;
     /* height: 550px; */
     margin-top: 85px;
 } 
+.banner-text {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 310px;
+    width: 100%;
+    text-align: center;
+}
+.banner-bg-text {
+    /* border: 1px solid blue; */
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    color: #fff;
+    line-height: 86px;
+}
+.banner-sm-text {
+    /* border: 1px solid red; */
+    font-family: SF UI Display;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 83px;
+    color: #fff;
+    letter-spacing: 4px;
+}
+.banner-btn {
+    color: #fff;
+    background-color: #047AC3;
+    padding: .8rem 3rem;
+    font-family: SF UI Display;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.5s ease;
+    margin-top: 1rem;
+}
+.banner-btn:hover {
+    background-color: transparent;
+    border: 2px solid #047AC3;
+    color: #047AC3;
+}
 
 /* Welcome Message */
 .welcome-wrap {
@@ -84,6 +135,8 @@ main {
 .services-content {
     font-size: 14px;
     padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
 }
 .services a {
     margin-left: 8px;
@@ -198,7 +251,35 @@ main {
 
 
 @media (max-width: 500px) {
-
+    .banner img {
+        width: 100%;
+        margin-top: 79px;
+    } 
+    .banner-text {
+        top: 130px;
+    }
+    .banner-bg-text {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .banner-sm-text {
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    .banner-btn {
+        padding: .7rem 2rem;
+        font-size: 18px;
+    }
+    .message h4 {
+        /* border: 1px solid red; */
+        text-align: center;
+        font-size: 22px;
+    }
+    .services-content {
+        /* text-align: justify; */
+    }
 
     /* Footer */
     footer {
@@ -212,5 +293,52 @@ main {
     }
     .newsletter input {
         width: 220px;
+    }
+}
+@media (min-width: 768px) {
+    .banner img {
+        width: 100%;
+        margin-top: 81px;
+    } 
+    .banner-text {
+        top: 200px;
+    }
+    .banner-bg-text {
+        font-size: 45px;
+        line-height: 46px;
+    }
+    .banner-sm-text {
+        font-size: 20px;
+    }
+    .newsletter button {
+        margin-top: .5rem;
+    }
+    .social {
+        padding-left: .3rem;
+    }
+    .extra {
+        display: none;
+    }
+    
+}
+@media (min-width: 1024px) {
+    .banner-text {
+        top: 250px;
+    }
+    .banner-bg-text {
+        font-size: 55px;
+    }
+    .extra {
+        display: inline-block;
+    }
+}
+@media(min-width: 1200px) {
+    .banner-text {
+        top: 300px;
+    }
+}
+@media(min-width: 1300px) {
+    .banner-text {
+        top: 380px;
     }
 }

@@ -7,12 +7,31 @@
     box-sizing: border-box;
     /* font-family: 'Poppins', sans-serif; */
 }
+@font-face {
+    font-family: SF UI Display;
+    src: url(/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
+    src: url(/sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
+  }
 
 /* NavBar */
+.banner {
 
+}
 .banner img {
     width: 100%;
     /* height: 550px; */
+    margin-top: 85px;
+}
+.banner-text {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: SF UI Display;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 /* About Us Message */
@@ -140,6 +159,48 @@
     .core-img {
         width: 45%;
     }
-
+    .banner img {
+        margin-top: 80px;
+    }
+    .banner-text {
+        top: 130px;
+    }
+    .banner-text {
+        font-size: 17px;
+    }
    
+}
+@media (min-width: 768px) {
+    .banner img {
+        margin-top: 80px;
+    }
+    .banner-text {
+        top: 190px;
+    }
+    .banner-text {
+        font-size: 25px;
+    }
+}
+@media (min-width: 1024px) {
+    .banner-text {
+        top: 230px;
+    }
+}
+@media (min-width: 1200px) {
+    .banner-text {
+        top: 250px;
+    }
+}
+@media (min-width: 1300px) {
+    .banner-text {
+       
+        position: absolute;
+        top: 280px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-family: SF UI Display;
+        font-size: 38px;
+        font-weight: bold;
+    }
 }
