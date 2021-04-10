@@ -42,7 +42,6 @@
 .sub-menu-wrap {
     display: none;
     position: absolute;
-    /* border: 1px solid red; */
    transition: 0.5s ease;
 }
 .nav-drop:hover .sub-menu-wrap {
@@ -54,8 +53,6 @@
     to{top:70%}
 }
 .sub-menu {
-    /* border: 1px solid red; */
-    /* position: absolute; */
     margin-top: 10px;
     background-color: #047AC3;
     padding: 10px 30px 10px 30px; 
@@ -66,7 +63,6 @@
 .sub-menu a {
     color: #fff !important;
     font-size: 13px !important;
-    /* border-bottom: 1px solid #e9e9e9; */
     padding: 10px 5px !important;
    
 }

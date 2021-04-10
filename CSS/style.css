@@ -23,18 +23,15 @@ main {
 }
 .banner img {
     width: 100%;
-    /* height: 550px; */
     margin-top: 85px;
 } 
 .banner-text {
-    /* border: 1px solid red; */
     position: absolute;
     top: 310px;
     width: 100%;
     text-align: center;
 }
 .banner-bg-text {
-    /* border: 1px solid blue; */
     font-family: SF UI Display;
     font-style: normal;
     font-weight: bold;
@@ -43,7 +40,6 @@ main {
     line-height: 86px;
 }
 .banner-sm-text {
-    /* border: 1px solid red; */
     font-family: SF UI Display;
     font-weight: 100;
     font-size: 25px;
@@ -69,29 +65,18 @@ main {
 
 /* Welcome Message */
 .welcome-wrap {
-    /* border: 1px solid red; */
     padding-top: 1.9rem;
 }
 .welcome {
-    /* border: 1px solid red; */
     text-align: center;
 }
-.welcome-message-img {
 
-}
 .welcome-message-img img {
-    /* border: 1px solid red; */
     width: 100%;
 }
-.message {
-    /* border: 1px solid red; */
-    /* padding-top: 3.5rem; */
-}
 .message h4 {
-    /* border: 1px solid red; */
    margin-bottom: 1.5rem;
    line-height: 35px;
-   /* font-size: 24px; */
 }
 .message button {
     margin-top: 1.5rem;
@@ -106,13 +91,11 @@ main {
     padding-bottom: 4rem;
 }
 .service-head {
-    /* border: 1px solid red; */
     text-align: center;
     margin-bottom: 2.5rem;
 }
 .services {
     border: 1px solid #cdd0cb;
-    /* border: 1px solid #5f6caf; */
     border-radius: 7px;
     padding-bottom: 1rem;
     
@@ -199,7 +182,6 @@ main {
     width: 100%;
 }
 .footer-contact p {
-    /* border: 1px solid red; */
     color: #212529;
 }
 .footer-contact p i {
@@ -222,7 +204,6 @@ main {
 }
 .newsletter input {
     width: 250px;
-    /* height: 40px; */
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -274,12 +255,8 @@ main {
         font-size: 16px;
     }
     .message h4 {
-        /* border: 1px solid red; */
         text-align: center;
         font-size: 22px;
-    }
-    .services-content {
-        /* text-align: justify; */
     }
 
     /* Footer */

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/bootstrap/animate.min.css">
 
     <title>Nibram Cleaning Services</title>
     
@@ -58,7 +59,7 @@
         <!-- Banner -->
         <section class="banner-wrap">
             <div class="banner">
-                <div class="banner-text">
+                <div class="banner-text wow animate__animated animate__fadeInUp">
                     <ul>
                         <li class="banner-bg-text">Use an elite cleaning service today</li>
                         <li class="banner-sm-text">Nibram cleaning  services offers the best</li>
@@ -75,15 +76,15 @@
         <!-- Welcome -->
         <section class="pt-5">
             <div class="container welcome-wrap">
-                <h2 class="welcome">Welcome to Nibram Cleaning Services</h2>
+                <h2 class="welcome wow animate__animated animate__fadeInDown">Welcome to Nibram Cleaning Services</h2>
                 <div class="row">
                     <div class="col-md">
-                        <div class="welcome-message-img">
+                        <div class="welcome-message-img wow animate__animated animate__zoomIn animate__delay-2s">
                             <img src="/Images/welcome.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md align-self-center">
-                        <div class="message">
+                        <div class="message wow animate__animated animate__fadeInUp animate__delay-1s">
                             <h4>We improve living condintions by providing an hygenic space </h4>
                                 <span>At Nibram Cleaning Services, we aspire to be a leading provider of cleaning services posed to render world 
                                     class cleaning and customer satisfaction in Nigeria. </span>
@@ -178,14 +179,14 @@
         <!-- Why Choose Us -->
         <section class="choose-wrap">
             <div class="container">
-                <h2 class="service-head">Why Choose Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam numquam maiores suscipit ullam! Ab ea
+                <h2 class="service-head wow animate__animated animate__fadeInDown">Why Choose Us</h2>
+                <p class="wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam numquam maiores suscipit ullam! Ab ea
                     commodi quos eum numquam officia obcaecati natus quis. Facilis id distinctio asperiores facere
                     soluta enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam numquam maiores suscipit ullam! Ab ea
                     commodi quos eum numquam officia obcaecati natus quis. Facilis id distinctio asperiores facere
                     soluta enim.</p>
 
-                    <a href=""><button>GET IN TOUCH</button></a>
+                    <a href="" class="wow animate__animated animate__zoomIn animate__delay-2s"><button>GET IN TOUCH</button></a>
             </div>
         </section>
     </main>
@@ -236,17 +237,12 @@
     
 
     <script src="/JS/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-
-    <!-- <script>
-        $(document).ready(function() {
-            $('.toggle').click(function() {
-                $(nav).toggleClass('.active')
-            })
-        })
-    </script> -->
+    <script src="/bootstrap/bootstrap.min.js"></script>
+    <script src="/bootstrap/jquery3.4.1.js"></script>
+    <script src="/bootstrap/jquery.min.js"></script>
+    <script src="/bootstrap/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

@@ -9,7 +9,6 @@
     margin-top: 85px;
 }
 .banner-text {
-    /* border: 1px solid red; */
     position: absolute;
     top: 280px;
     width: 100%;
@@ -37,7 +36,6 @@
 .contact h3 {
     color: #2b2a2a;
     margin-bottom: 1rem;
-    /* font-weight: 400; */
     font-size: 20px;
 }
 .contact label {
@@ -77,22 +75,10 @@
 @media (max-width: 500px) {
     #nn {
         order: 2;
-        /* text-align: center;
-        padding-left: 0%; */
     }
     #mm {
         order: 1;
     }
-    /* #oo {
-        order: 3;
-    }
-    #pp {
-        order: 4;
-        text-align: center;
-    }
-    .core-img {
-        width: 45%;
-    } */
     .banner img {
         margin-top: 66px;
     }

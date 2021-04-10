@@ -12,7 +12,6 @@
     width: 100%;
 }
 .footer-contact p {
-    /* border: 1px solid red; */
     color: #212529;
 }
 .footer-contact p i {
@@ -35,7 +34,6 @@
 }
 .newsletter input {
     width: 250px;
-    /* height: 40px; */
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
