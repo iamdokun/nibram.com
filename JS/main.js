@@ -50,3 +50,6 @@ function mobileDropdownFunction() {
     mobileDropdownWrap.classList.toggle('mobile-hide');
     
 }
+
+
+
