@@ -149,6 +149,7 @@ main {
     border-bottom-left-radius: 7px;
     border: 1px solid;
     font-size: 14px;
+    background-color: transparent;
 }
 .services a button:hover {
     transform: scale(0.97);
