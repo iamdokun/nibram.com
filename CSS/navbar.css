@@ -51,7 +51,7 @@
 }
 @keyframes dropdown {
     from{top: 10%}
-    to{top:60%}
+    to{top:70%}
 }
 .sub-menu {
     /* border: 1px solid red; */
@@ -153,5 +153,13 @@
     }
     .mobile-hide {
         display: block;
+    }
+}
+@media(max-width:450px){
+    .mobile-logo {
+        width: 160px;
+    }
+    .mobile-logo img {
+        width: 100%;
     }
 }

@@ -253,10 +253,10 @@ main {
 @media (max-width: 500px) {
     .banner img {
         width: 100%;
-        margin-top: 79px;
+        margin-top: 67px;
     } 
     .banner-text {
-        top: 130px;
+        top: 120px;
     }
     .banner-bg-text {
         font-size: 22px;
@@ -269,8 +269,8 @@ main {
         margin-top: 10px;
     }
     .banner-btn {
-        padding: .7rem 2rem;
-        font-size: 18px;
+        padding: .4rem 1.1rem;
+        font-size: 16px;
     }
     .message h4 {
         /* border: 1px solid red; */
@@ -283,7 +283,7 @@ main {
 
     /* Footer */
     footer {
-        padding-left: 10px;
+        padding-left: 8px;
     }
     .footer-contact {
         margin-top: 4rem;

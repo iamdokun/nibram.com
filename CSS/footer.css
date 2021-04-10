@@ -62,12 +62,12 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
 
     /* Footer */
     footer {
-        padding-left: 10px;
+        padding-left: 8px;
     }
     .footer-contact {
         margin-top: 4rem;

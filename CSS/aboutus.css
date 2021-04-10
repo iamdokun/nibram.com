@@ -5,7 +5,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 @font-face {
     font-family: SF UI Display;
@@ -41,8 +41,9 @@
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 2rem;
-    width: 85%;
+    width: 90%;
     margin: auto;
+    
 }
 .about-us-wrap ul {
     list-style: none;
@@ -51,7 +52,7 @@
     font-size: 18px;
     padding: 1rem;
     line-height: 1.8rem;
-    color: #121212;
+    color: #5e5e5e;
 }
 .welcome {
     text-align: center;
@@ -160,10 +161,10 @@
         width: 45%;
     }
     .banner img {
-        margin-top: 80px;
+        margin-top: 67px;
     }
     .banner-text {
-        top: 130px;
+        top: 115px;
     }
     .banner-text {
         font-size: 17px;
