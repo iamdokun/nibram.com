@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="/CSS/footer.css">
     <link rel="stylesheet" href="/bootstrap/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
     <title>Nibram Cleaning Services</title>
@@ -104,7 +105,86 @@
                                 <li>Responds to urgent situations, such as spills, that require quick action</li>
                                 <li>Collects and removes trash from a building or space</li>
                             </ul>
-                            <button class="wow animate__animated animate__zoomIn animate__delay-2s">Request Quote </button>
+                            <!-- Button trigger modal -->
+                            <button class=" wow animate__animated animate__zoomIn animate__delay-2s" data-toggle="modal"
+                                data-target="#quote">Request Quote </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="quote" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Quotation Request</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="quote-form">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Name</label>
+                                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp" placeholder="John Smith" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputPassword1">Address</label>
+                                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                                            placeholder="54a, Admiralty Way, Lekki Phase 1, Lagos " required>
+                                                        <small id="emailHelp" class="form-text text-muted">Specify the Location/address
+                                                            where the
+                                                            services will be required</small>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Phone Number</label>
+                                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp" placeholder="08023456789" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Email address</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp" placeholder="john.smith@abc.com" required>
+                                                    </div>
+                    
+                                                    <label for="exampleInputEmail1">Select Services</label>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Janitorial</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">General Cleaning</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Fumigation & Pest
+                                                            Control</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Waste Management</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Relocation</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Laundry</label>
+                                                    </div>
+                                                    <div class="form-group mt-3">
+                                                        <label for="exampleFormControlTextarea1">Message <span
+                                                                style="font-size: 10px;">(Optional)</span></label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- <div class="col-md" id="mm">
