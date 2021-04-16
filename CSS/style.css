@@ -32,7 +32,8 @@ main {
     text-align: center;
 }
 .banner-bg-text {
-    font-family: SF UI Display;
+    font-family: SF UI Display
+     'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
