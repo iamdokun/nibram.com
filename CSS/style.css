@@ -102,7 +102,7 @@ main {
     box-shadow: 4px 4px 2px rgba(95,108,175, 0.11);
 }
 .services:hover {
-    
+    box-shadow: 4px 4px 2px rgba(95,108,175, 0.3);
 }
 .services-img {
     margin-bottom: 1rem;
