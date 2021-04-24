@@ -8,8 +8,8 @@
 }
 @font-face {
     font-family: SF UI Display;
-    src: url(/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
-    src: url(/sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
   }
   html {
     scroll-behavior: smooth;
@@ -87,7 +87,7 @@ main {
 
 /* Our Services */
 .service-wrap {
-    background-color: #e9e9e9;
+    background-color: rgba(233,233,233,0.3);
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -99,10 +99,10 @@ main {
     border: 1px solid #cdd0cb;
     border-radius: 7px;
     padding-bottom: 1rem;
-    
+    box-shadow: 4px 4px 2px rgba(95,108,175, 0.11);
 }
 .services:hover {
-    box-shadow: 4px 4px 2px rgba(95,108,175, 0.3);
+    
 }
 .services-img {
     margin-bottom: 1rem;
@@ -172,7 +172,7 @@ main {
 
 /* Footer  */
 .footer-wrap {
-    background-color: #e9e9e9;
+    background-color: #e2e2e2;
     padding-top: 4rem;
     padding-bottom: 1rem;
 }
