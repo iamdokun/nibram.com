@@ -27,8 +27,8 @@
 }
 .nav-item.active a, .nav-item:hover a {
     background-color: #047AC3;
-    border-radius: 3px;
-    color: #fff;
+    border-radius: 2px;
+    color: #fff !important;
 }
 .desktop-nav-wrap ul li a {
     text-decoration: none;
