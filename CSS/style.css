@@ -17,6 +17,52 @@
 main {
     background-color: #fff;
 }
+
+/* Preloader */
+#loader {
+    border: 2px solid ;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 16rem;
+    z-index: 3;
+}
+@keyframes ldio-rpinwye8j0b {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(360deg) }
+  }
+  .ldio-rpinwye8j0b div {
+    position: absolute;
+    animation: ldio-rpinwye8j0b 1s linear infinite;
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 0 0 linear-gradient(#047AC3, #e9e9e9);
+    transform-origin: 80px 82px;
+    
+  }
+  .loadingio-eclipse {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .ldio-rpinwye8j0b {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  .ldio-rpinwye8j0b div { box-sizing: content-box; }
+
+
+
 /* Banner Section */
 .banner {
     position: relative;
@@ -32,8 +78,7 @@ main {
     text-align: center;
 }
 .banner-bg-text {
-    font-family: SF UI Display
-     'Poppins', sans-serif;
+    font-family: SF UI Display 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
