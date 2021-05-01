@@ -1,5 +1,83 @@
+<<<<<<< HEAD:relocation.php
 <?php include_once 'includes/headerServ.php'; ?>
  <?php include_once 'includes/navServ.php'; ?>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/services.css">
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/bootstrap/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+
+    <title>Nibram Cleaning Services</title>
+    
+</head>
+<body>
+    <header>
+        <div class="mobile-nav-view ">
+            <nav class="mobile-nav-wrap container">
+                <div class="mobile-logo"><a href="index.php"><img src="/Images/nibram logo.png" alt=""></a></div>
+                <ul class="navbar-wrap" id="mobile-nav">
+                    <li class="nav-item"><a href="index.php">Home</a></li>
+                    <li class="nav-item"><a href="aboutus.php">About us</a></li>
+                    <li class="nav-item active"><a class="dropdown-toggle" href="#" id="mobile-dropdown">Services</a>
+                        <div class="mobile-sub-menu">
+                            <a class="dropdown-item" href="janitor.php">Janitorial Services</a>
+                            <a class="dropdown-item" href="genclean.php">General Cleaning</a>
+                            <a class="dropdown-item" href="funmigation.php">Fumigation Services</a>
+                            <a class="dropdown-item" href="wastemgt.php">Waste Management </a>
+                            <a class="dropdown-item" href="relocation.php">Relocation Services</a>
+                            <a class="dropdown-item" href="laundry.php">Laundry Services</a>
+                          </div>
+                    </li>
+                    <li class="nav-item"><a href="https://www.instagram.com/nibramcleans/" target="_blank">Media</a></li>
+                    <li class="nav-item"><a href="contact.php">Contact</a></li>
+                </ul>
+                <div class="toggle">
+                    <span class="menu-bar" id="menuBar"><i class="fas fa-bars"></i></span>
+                    <span class="menu-cancel" id="menuCancel"><i class="fas fa-times"></i></span>
+                </div>
+            </nav>
+        </div>
+        <section class="desktop-nav-view-wrap">
+            <div class="desktop-nav-view container">
+                <div class="logo"><a href="index.php"><img src="/Images/nibram logo.png" alt=""></a></div>
+                <nav class="desktop-nav-wrap">
+                    <ul>
+                        <li class="nav-item"><a href="index.php" class="active">Home</a></li>
+                        <li class="nav-item"><a href="aboutus.php">About us</a></li>
+                        <li class="nav-item active nav-drop"><a class="dropdown-toggle" id="desktop-dropdown">Services</a>
+                            <div class="sub-menu-wrap">
+                                <div class="sub-menu" id="desktop-dropdown-wrap">
+                                    <a class="dropdown-item" href="janitor.php">Janitorial Services</a>
+                                    <a class="dropdown-item" href="genclean.php">General Cleaning</a>
+                                    <a class="dropdown-item" href="funmigation.php">Fumigation Services</a>
+                                    <a class="dropdown-item" href="wastemgt.php">Waste Management </a>
+                                    <a class="dropdown-item" href="relocation.php">Relocation Services</a>
+                                    <a class="dropdown-item" href="laundry.php">Laundry Services</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="https://www.instagram.com/nibramcleans/" target="_blank">Media</a></li>
+                        <li class="nav-item"><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+    </header>   
+>>>>>>> e6d4aa97190cc4787632aceb5358eccc760bd165:relocation.html
     <main>
         <!-- Banner -->
         <section class="banner-wrap">

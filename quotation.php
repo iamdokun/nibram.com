@@ -15,7 +15,7 @@ $client->update_qoutation_date_time_replied();
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="bootstrap/animate.min.css">
 
-    <title>Nibram Cleaning Services</title>
+    <title>Admin | Nibram Cleaning Services</title>
 
 </head>
 <style>

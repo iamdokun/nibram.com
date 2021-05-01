@@ -4,7 +4,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+@font-face {
+    font-family: SF UI Display;
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
+  }
 
 .banner img {
     width: 100%;
@@ -17,7 +21,7 @@
     text-align: center;
     color: #fff;
     font-family: SF UI Display;
-    font-size: 38px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -36,6 +40,7 @@
 .vision-img img {
     width: 100%;
 }
+
 
 .services-wrap h3 {
     color: #2b2a2a;
@@ -132,7 +137,7 @@
         text-align: center;
         color: #fff;
         font-family: SF UI Display;
-        font-size: 38px;
+        font-size: 45px;
         font-weight: bold;
     }
 }
