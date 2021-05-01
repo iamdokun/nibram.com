@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="/bootstrap/animate.min.css">
 
-    <title>Nibram Cleaning Services</title>
+    <title>Admin | Nibram Cleaning Services</title>
 
 </head>
 <style>

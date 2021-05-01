@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="/bootstrap/animate.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 
     <title>Nibram Cleaning Services</title>
     
 </head>
-<body>
+<body onload="myLoader()">
+
+    <div id="loader">
+        <div class="loadingio-eclipse">
+          <div class="ldio-rpinwye8j0b">
+            <div>
+            </div>
+          </div>
+        </div>
+        </div>
+
     <header>
         <div class="mobile-nav-view ">
             <nav class="mobile-nav-wrap container">
@@ -103,7 +117,7 @@
             <div class="container">
                 <h2 class="service-head" id="services">Our Services</h2>
                 <div class="row">
-                    <div class="col-md pt-4">
+                    <div class="col-md pt-4 wow animate__animated animate__fadeInLeft">
                         <div class="services">
                             <div class="services-img"><img src="/Images/Janitor 1.png" alt=""></div>
                             
@@ -116,7 +130,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-md pt-4">
+                    <div class="col-md pt-4 wow animate__animated animate__fadeInDown">
                         <div class="services">
                             <div class="services-img"><img src="/Images/Genral-Cleaning 1.png" alt=""></div>
                             <h5 class="services-content-head">General Cleaning</h5>
@@ -126,12 +140,12 @@
                             <a href="genclean.php"><button>Read More...</button></a>
                         </div>
                     </div>
-                    <div class="col-md pt-4">
+                    <div class="col-md pt-4 wow animate__animated animate__fadeInRight">
                         <div class="services">
                             <div class="services-img"><img src="/Images/Fumigation 1.png" alt=""></div>
                             <h5 class="services-content-head"><span>Fumigation</span> <span class="extra">& Pet Control</span></h5>
                             <div class="services-content">
-                                At Nibram Cleaning Services, We provide each individual with professional and effective pest control...
+                                At Nibram Cleaning Services, We provide our clients with professional and effective pest control...
                             </div>
                             <a href="funmigation.php"><button>Read More...</button></a>
                         </div>
@@ -139,7 +153,7 @@
                     
                 </div>
                 <div class="row">
-                    <div class="col-md pt-4">
+                    <div class="col-md pt-4 wow animate__animated animate__fadeInLeft">
                         <div class="services">
                             <div class="services-img"><img src="/Images/Genral-Cleaning 2.png" alt=""></div>
                             <h5 class="services-content-head">Waste Managment</h5>
@@ -150,9 +164,9 @@
                             <a href="wastemgt.php"><button>Read More...</button></a>
                         </div>
                     </div>
-                    <div class="col-md pt-4">
+                    <div class="col-md pt-4 wow animate__animated animate__fadeInUp">
                         <div class="services">
-                            <div class="services-img"><img src="/Images/Relocation 1.png" alt=""></div>
+                            <div class="services-img"><img src="/Images/relocate.png" alt=""></div>
                             <h5 class="services-content-head">Relocation Services</h5>
                             <div class="services-content">
                                 Whether you’re moving into or out of a new home, Nibram Cleaning Services will take 
@@ -161,7 +175,7 @@
                             <a href="relocation.php"><button>Read More...</button></a>
                         </div>
                     </div>
-                    <div class="col-md pt-4">
+                    <div class="col-md pt-4 wow animate__animated animate__fadeInRight">
                         <div class="services">
                             <div class="services-img"><img src="/Images/lundry 1.png" alt=""></div>
                             <h5 class="services-content-head">Laundry Services</h5>
@@ -236,6 +250,7 @@
     </footer>
     
 
+    
     <script src="/JS/main.js"></script>
     <script src="/bootstrap/bootstrap.min.js"></script>
     <script src="/bootstrap/jquery3.4.1.js"></script>
@@ -244,5 +259,12 @@
     <script>
         new WOW().init();
     </script>
+    <script>
+        const load = document.getElementById('loader');
+        function myLoader() {
+            
+            load.style.display = 'none';
+        }
+        </script>
 </body>
 </html>

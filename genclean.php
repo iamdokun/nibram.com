@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="/CSS/footer.css">
     <link rel="stylesheet" href="/bootstrap/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 
 
     <title>Nibram Cleaning Services</title>
@@ -19,7 +23,7 @@
     <header>
         <div class="mobile-nav-view ">
             <nav class="mobile-nav-wrap container">
-                <div class="mobile-logo"><a href="index.html"><img src="/Images/nibram logo.png" alt=""></a></div>
+                <div class="mobile-logo"><a href="index.html"><img src="Images/nibram logo.png" alt=""></a></div>
                 <ul class="navbar-wrap" id="mobile-nav">
                     <li class="nav-item"><a href="index.html">Home</a></li>
                     <li class="nav-item"><a href="aboutus.html">About us</a></li>
