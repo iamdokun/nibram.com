@@ -8,8 +8,8 @@
 }
 @font-face {
     font-family: SF UI Display;
-    src: url(/sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
-    src: url(/sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-bold-58646a511e3d9.otf);
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf); 
   }
   html {
     scroll-behavior: smooth;
@@ -26,13 +26,14 @@ main {
     margin-top: 85px;
 } 
 .banner-text {
+    font-family: SF UI Display, sans-serif, 'Poppins';
     position: absolute;
     /* top: 310px; */
     width: 100%;
     text-align: center;
 }
 .banner-bg-text {
-    font-family: SF UI Display;
+    font-family: SF UI Display, sans-serif, 'Poppins';
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
@@ -40,7 +41,7 @@ main {
     line-height: 86px;
 }
 .banner-sm-text {
-    font-family: SF UI Display;
+    font-family: SF UI Display, 'Poppins', sans-serif;
     font-weight: 100;
     font-size: 25px;
     line-height: 83px;
@@ -51,7 +52,7 @@ main {
     color: #fff;
     background-color: #047AC3;
     padding: .8rem 3rem;
-    font-family: SF UI Display;
+    font-family: SF UI Display, sans-serif, 'Poppins';
     font-weight: bold;
     font-size: 25px;
     transition: 0.5s ease;
@@ -317,6 +318,6 @@ main {
 }
 @media(min-width: 1300px) {
     .banner-text {
-        top: 400px;
+        top: 350px;
     }
 }

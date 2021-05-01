@@ -1,14 +1,19 @@
+<?php session_start();
+include_once 'core/admin.php';
+$client  = new User();
+$client->update_date_time(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/navbar.css">
-    <link rel="stylesheet" href="/bootstrap/animate.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="bootstrap/animate.min.css">
 
     <title>Nibram Cleaning Services</title>
 
@@ -19,7 +24,6 @@
     }
    .replied {
        width: 20px;
-       /* display: none; */
    }
    table {
        background-color: #fff;
@@ -39,9 +43,9 @@
 
 <body>
 <div class="container wrap">
-    <a href="/adminNav.html" class="btn back mt-4"><span><<</span> Back</a>
-    <!-- <section class="newsletter-data my-5">
-        <h3 class="text-center py-4">Client Data for Newsletter</h3>
+    <a href="adminNav.php" class="btn back mt-4"><span><<</span> Back</a>
+    <section class="newsletter-data my-5">
+        <h3 class="text-center py-4">Clients Data for Newsletter</h3>
         <table class="table table-sm table-bordered">
             <thead>
               <tr>
@@ -52,37 +56,36 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <!-- <tr>
                 <th scope="row">1</th>
                 <td>jonn.smith@abc.com</td>
                 <td><input type="checkbox" name="" id=""><button class="btn">Message</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <th scope="row">2</th>
                 <td>Maxlodge@yahoo.com</td>
                 <td><input type="checkbox" name="" id=""><button class="btn">Message</td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <th scope="row">3</th>
                 <td>elvis@me.com</td>
                 <td><input type="checkbox" name="" id=""><button class="btn">Message</td>
-              </tr>
+              </tr> -->
+              <?php $client->display_user_email(); ?>
             </tbody>
           </table>
-    </section> -->
+    </section>
     <section class="clientMessage my-5">
-        <h3 class="text-center py-4">Clients Quatation Request</h3>
+        <h3 class="text-center py-4">Clients Messages</h3>
         <div class="scrollbar2 scrollbar-primary cart-items" style="overflow-x:auto;">
         
         <table class="table table-bordered" id="table-wrap">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col">Name</th>
-                <th scope="col">Address</th>
-                <th scope="col">Phone</th>
                 <th scope="col">Email</th>
-                <th scope="col">Service</th>
+                <th scope="col">Phone</th>
                 <th scope="col">Message</th>
                 <th scope="col">Status</th>
                 <th scope="col">Date & Time Created</th>
@@ -91,56 +94,63 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <!-- <tr>
                 <th scope="row">1</th>
                 <td>Mark Otto</td>
-                <td>54a, Admiralty Way, Lekki Phase 1, Lagos</td>
-                <td>080234567</td>
                 <td>mark.otto@gmail</td>
-                <td>Genral Cleaning, Fumigation</td>
+                <td>080234567</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. </td>
-                
-                <td><button class="btn replyBtn" >Replied</button> <span><img src="/Images/email-check.png" alt="" class="replied" style="display: none;"></span></td>
+                    elit. At deleniti, accusamus dolorem sed exercitationem 
+                    tempora aspernatur iusto, veritatis excepturi ab 
+                    temporibus sapiente tenetur architecto totam! 
+                    Laborum expedita deleniti facilis molestiae error. 
+                    Delectus et quisquam corporis.</td>
+                <td><button class="btn replyBtn" >Replied</button> <span><img src="Images/email-check.png" alt="" class="replied" style="display: none;"></span></td>
                 <td></td>
                 <td></td>
-              </tr>
+              </tr> -->
+              <?php $client ->get_client_details(); ?>
               
-              <tr>
+              <!-- <tr>
                 <th scope="row">2</th>
                 <td>Mark Otto</td>
-                <td>54a, Admiralty Way, Lekki Phase 1, Lagos</td>
-                <td>080234567</td>
                 <td>mark.otto@gmail</td>
-                <td>Genral Cleaning, Fumigation</td>
+                <td>080234567</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. </td>
-                
-                <td><button class="btn replyBtn" >Replied</button> <span><img src="/Images/email-check.png" alt="" class="replied" style="display: none;"></span></td>
+                    elit. At deleniti, accusamus dolorem sed exercitationem 
+                    tempora aspernatur iusto, veritatis excepturi ab 
+                    temporibus sapiente tenetur architecto totam! 
+                    Laborum expedita deleniti facilis molestiae error. 
+                    Delectus et quisquam corporis.</td>
+                <td><button class="btn replyBtn" >Replied</button> <span><img src="Images/email-check.png" alt="" class="replied" style="display: none;"></span></td>
                 <td></td>
                 <td></td>
-              </tr>
-              <tr>
+              </tr> -->
+              <!-- <tr>
                 <th scope="row">3</th>
                 <td>Mark Otto</td>
-                <td>54a, Admiralty Way, Lekki Phase 1, Lagos</td>
-                <td>080234567</td>
                 <td>mark.otto@gmail</td>
-                <td>Genral Cleaning, Fumigation</td>
+                <td>080234567</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. </td>
-                
-                <td><button class="btn replyBtn" >Replied</button> <span><img src="/Images/email-check.png" alt="" class="replied" style="display: none;"></span></td>
+                    elit. At deleniti, accusamus dolorem sed exercitationem 
+                    tempora aspernatur iusto, veritatis excepturi ab 
+                    temporibus sapiente tenetur architecto totam! 
+                    Laborum expedita deleniti facilis molestiae error. 
+                    Delectus et quisquam corporis.</td>
+                <td><button class="btn replyBtn" >Replied</button> <span><img src="Images/email-check.png" alt="" class="replied" style="display: none;"></span></td>
                 <td></td>
                 <td></td>
-              </tr>
+              </tr> -->
             </tbody>
           </table>
+          
         </div>
     </section>
 </div>
 
-<script src="/JS/client.js"></script>
+<script src="JS/client.js"></script>
+<!-- <script src="JS/submit.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </body>
 

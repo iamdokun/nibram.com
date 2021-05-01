@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner img {
@@ -9,6 +10,7 @@
     margin-top: 85px;
 }
 .banner-text {
+    font-family: sans-serif, 'Poppins';
     position: absolute;
     top: 280px;
     width: 100%;
