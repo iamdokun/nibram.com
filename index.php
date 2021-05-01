@@ -16,22 +16,22 @@
     <header>
         <div class="mobile-nav-view ">
             <nav class="mobile-nav-wrap container">
-                <div class="mobile-logo"><a href="index.html"><img src="/Images/nibram logo.png" alt=""></a></div>
+                <div class="mobile-logo"><a href="index.php"><img src="/Images/nibram logo.png" alt=""></a></div>
                 <ul class="navbar-wrap" id="mobile-nav">
                     <li class="nav-item active"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="aboutus.html">About us</a></li>
+                    <li class="nav-item"><a href="aboutus.php">About us</a></li>
                     <li class="nav-item"><a class="dropdown-toggle" href="#" id="mobile-dropdown">Services</a>
                         <div class="mobile-sub-menu">
-                            <a class="dropdown-item" href="janitor.html">Janitorial Services</a>
-                            <a class="dropdown-item" href="genclean.html">General Cleaning</a>
-                            <a class="dropdown-item" href="funmigation.html">Fumigation Services</a>
-                            <a class="dropdown-item" href="wastemgt.html">Waste Management </a>
-                            <a class="dropdown-item" href="relocation.html">Relocation Services</a>
-                            <a class="dropdown-item" href="laundry.html">Laundry Services</a>
+                            <a class="dropdown-item" href="janitor.php">Janitorial Services</a>
+                            <a class="dropdown-item" href="genclean.php">General Cleaning</a>
+                            <a class="dropdown-item" href="funmigation.php">Fumigation Services</a>
+                            <a class="dropdown-item" href="wastemgt.php">Waste Management </a>
+                            <a class="dropdown-item" href="relocation.php">Relocation Services</a>
+                            <a class="dropdown-item" href="laundry.php">Laundry Services</a>
                           </div>
                     </li>
                     <li class="nav-item"><a href="https://www.instagram.com/nibramcleans/" target="_blank">Media</a></li>
-                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="contact.php">Contact</a></li>
                 </ul>
                 <div class="toggle">
                     <span class="menu-bar" id="menuBar"><i class="fas fa-bars"></i></span>
@@ -41,14 +41,14 @@
         </div>
         <section class="desktop-nav-view-wrap">
             <div class="desktop-nav-view container">
-                <div class="logo"><a href="index.html"><img src="/Images/nibram logo.png" alt=""></a></div>
+                <div class="logo"><a href="index.php"><img src="/Images/nibram logo.png" alt=""></a></div>
                 <nav class="desktop-nav-wrap">
                     <ul>
                         <li class="nav-item active"><a href="#" class="active">Home</a></li>
-                        <li class="nav-item"><a href="aboutus.html">About us</a></li>
+                        <li class="nav-item"><a href="aboutus.php">About us</a></li>
                         <li class="nav-item"><a class="dropdown-toggle" href="#services" id="desktop-dropdown">Services</a></li>
                         <li class="nav-item"><a href="https://www.instagram.com/nibramcleans/" target="_blank">Media</a></li>
-                        <li class="nav-item"><a href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -63,7 +63,7 @@
                     <ul>
                         <li class="banner-bg-text">Use an elite cleaning service today</li>
                         <li class="banner-sm-text">Nibram cleaning  services offers the best</li>
-                        <li><a class="btn banner-btn" href="/contact.html" role="button">Hire Now</a></li>
+                        <li><a class="btn banner-btn" href="/contact.php" role="button">Hire Now</a></li>
                     </ul>
                 </div>
                 <img src="/Images/ban.png" alt="">
@@ -90,7 +90,7 @@
                                     class cleaning and customer satisfaction in Nigeria. </span>
                                     
                                     <br>
-                                    <a href="aboutus.html"><button class="btn">Read More...</button></a>
+                                    <a href="aboutus.php"><button class="btn">Read More...</button></a>
                                     <br><br>
                          </div>
                     </div>
@@ -112,7 +112,7 @@
                                     Knowing well that a clean and hygienic office is a more productive place for your 
                                 staff to work and...
                                 </div>
-                                <a href="janitor.html"><button>Read More</button></a>
+                                <a href="janitor.php"><button>Read More</button></a>
                             
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                             <div class="services-content">
                                 Cleanliness play large role in the comfort of your resident and business space, but many at times...
                             </div>
-                            <a href="genclean.html"><button>Read More...</button></a>
+                            <a href="genclean.php"><button>Read More...</button></a>
                         </div>
                     </div>
                     <div class="col-md pt-4">
@@ -133,7 +133,7 @@
                             <div class="services-content">
                                 At Nibram Cleaning Services, We provide each individual with professional and effective pest control...
                             </div>
-                            <a href="funmigation.html"><button>Read More...</button></a>
+                            <a href="funmigation.php"><button>Read More...</button></a>
                         </div>
                     </div>
                     
@@ -147,7 +147,7 @@
                                 We provides comprehensive waste management Service, offering services such as 
                                 garbage collection and...
                             </div>
-                            <a href="wastemgt.html"><button>Read More...</button></a>
+                            <a href="wastemgt.php"><button>Read More...</button></a>
                         </div>
                     </div>
                     <div class="col-md pt-4">
@@ -158,7 +158,7 @@
                                 Whether you’re moving into or out of a new home, Nibram Cleaning Services will take 
                                 care of the mess...
                             </div>
-                            <a href="relocation.html"><button>Read More...</button></a>
+                            <a href="relocation.php"><button>Read More...</button></a>
                         </div>
                     </div>
                     <div class="col-md pt-4">
@@ -169,7 +169,7 @@
                                 We handle the most delicate of fabrics 
                                 as we consider the material or fabric involved and follow...
                             </div>
-                            <a href="laundry.html"><button>Read More...</button></a>
+                            <a href="laundry.php"><button>Read More...</button></a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                     optimum results, leaving your building with sparkling touch at reasonable cost, and in 
                     record time. Our clients love our work and always stuck with us after a trial.</p>
 
-                    <a href="/contact.html" class="wow animate__animated animate__zoomIn animate__delay-2s"><button>GET IN TOUCH</button></a>
+                    <a href="/contact.php" class="wow animate__animated animate__zoomIn animate__delay-2s"><button>GET IN TOUCH</button></a>
             </div>
         </section>
     </main>
@@ -195,7 +195,7 @@
             <div class="row">
                 <div class="col-md-2">
                     <div class="footer-logo">
-                        <a href="/login.html"><img src="/Images/nibram logo.png" alt=""></a>
+                        <a href="/login.php"><img src="/Images/nibram logo.png" alt=""></a>
                         
                     </div>
                 </div>
